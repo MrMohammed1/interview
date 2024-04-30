@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Detail</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Optional custom styles can be added here */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Person Detail</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>Name:</strong> {{ person.name }}</p>
+                <p><strong>Age:</strong> {{ person.age }}</p>
+                <p><strong>Nationality ID:</strong> {{ person.nationalityID }}</p>
+                <p><strong>Birth Date:</strong> {{ person.birthDate }}</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
